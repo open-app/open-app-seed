@@ -4,6 +4,7 @@ import gql from "graphql-tag"
 import { Query } from "react-apollo"
 import styled from "styled-components"
 import Button from '../components/Button'
+import Header from '../components/Header'
 
 const Text = styled.Text`
   color: ${props => props.theme.colors.primary};
@@ -38,7 +39,8 @@ const WHOAMI = gql`
 
 export default class Home extends Component {
   render() {
-    const { t, i18n } = this.props
+    console.log('Home', this.props)
+    const { t, i18n, theme } = this.props
     return (
       <View>
           <Title>{t('home:title')}</Title>

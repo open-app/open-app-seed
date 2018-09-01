@@ -1,7 +1,8 @@
 {
   "plugins": ["react-native-a11y", "prettier"],
   "extends": [
-    "plugin:react-native-a11y/recommended",
-    "plugin:prettier/recommended"
+    "react-native-a11y/recommended",
+    "prettier/recommended",
+    "prettier/react"
   ]
 }

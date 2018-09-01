@@ -5775,9 +5775,9 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
-open-app-provider@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/open-app-provider/-/open-app-provider-1.0.2.tgz#80125733db383cbedec68d668acd49674c3086bb"
+open-app-provider@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/open-app-provider/-/open-app-provider-1.0.6.tgz#f566675daf26c17cf22a17f98b6aaa879615cd07"
   dependencies:
     apollo-boost "^0.1.13"
     apollo-cache-persist "^0.1.1"
@@ -7351,20 +7351,6 @@ strip-outer@^1.0.0:
   resolved "https://registry.yarnpkg.com/strip-outer/-/strip-outer-1.0.1.tgz#b2fd2abf6604b9d1e6013057195df836b8a9d631"
   dependencies:
     escape-string-regexp "^1.0.2"
-
-styled-components@^3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-3.4.2.tgz#8f518419932327e47fe9144824e3184b3e2da95d"
-  dependencies:
-    buffer "^5.0.3"
-    css-to-react-native "^2.0.3"
-    fbjs "^0.8.16"
-    hoist-non-react-statics "^2.5.0"
-    prop-types "^15.5.4"
-    react-is "^16.3.1"
-    stylis "^3.5.0"
-    stylis-rule-sheet "^0.0.10"
-    supports-color "^3.2.3"
 
 styled-components@^3.4.5:
   version "3.4.5"

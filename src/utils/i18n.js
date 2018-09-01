@@ -1,12 +1,11 @@
 import { Platform } from 'react-native';
 import i18n from 'i18next'
 import { reactI18nextModule } from 'react-i18next'
-// import RNLanguages from 'react-native-languages'
 import detectBrowserLanguage from 'detect-browser-language';
 
 const lang = () => Platform.select({
   dom: detectBrowserLanguage(),
-  // android: RNLanguages.language.substring(0, 2)
+  // android: require('react-native-languages').language.substring(0, 2)
 });
 
 // creating a language detection plugin using expo
@@ -18,6 +17,9 @@ const languageDetector = {
   init: () => {},
   cacheUserLanguage: () => {}
 }
+
+// detectBrowserLanguage not workin!!
+console.log('Language detector not working', detectBrowserLanguage())
 
 
 i18n

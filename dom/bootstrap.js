@@ -5,7 +5,7 @@ const rnBundlePath = "./entry.bundle?platform=dom&dev=true";
 
 // React Native DOM Runtime Options =============================================
 const ReactNativeDomOptions = {
-  enableHotReload: false,
+  enableHotReload: true,
   nativeModules: []
 };
 
