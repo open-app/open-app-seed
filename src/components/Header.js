@@ -9,6 +9,7 @@ const Navbar = styled.View`
   height: 40px;
   display: flex;
   flex-flow: row no-wrap;
+  flex-wrap: nowrap;
   align-items: center;
   align-content: flex-start;
   justify-content: flex-start;
